@@ -3,6 +3,7 @@ A Personal Project I delved into in order to understand the concept of phishing 
 
 Phishing is a malicious attempt to display a website or source as authentic in order to steal credentials of users who visit the source.
 A way to distinguish a Phishing attack is most commonly by the URL
+
 USED:
 Node.js
 Express.js
