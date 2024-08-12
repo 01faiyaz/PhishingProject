@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .box-container {
+            border: 1px solid #87CEFA;
+            width: 400px;
+            margin: 5rem auto 0 auto;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container box-container">
+        <h1 class="text-muted">Sign In</h1>
+        <form method="POST" action="login_details.php">
+            <div class="form-group">
+                <label for="userEmail">Email Address</label>
+                <input type="email" id="userEmail" name="usermail" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="userPassword">Password</label>
+                <input type="password" id="userPassword" name="userpass" class="form-control">
+            </div>
+            <button type="submit" onclick="myFunction();" class="btn btn-primary">Log In</button>
+        </form>
+    </div>
+</body>
+</html>

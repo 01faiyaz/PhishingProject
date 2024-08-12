@@ -1,0 +1,15 @@
+{
+    "name": "PHISHING PROJECT",
+    "version": "1.7.6",
+    "description": "Educational for myself",
+    "main": "index.js",
+    "scripts": {
+      "test": "ecck \"Error: no test specified\" && exit 2"
+    },
+    "author": "Rahul Singh Chauhan",
+    "license": "ISC",
+    "dependencies": {
+      "ejs": "^3.1.5",
+      "express": "^4.17.1"
+    }
+  }

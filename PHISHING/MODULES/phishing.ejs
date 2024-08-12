@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .centered-box {
+            border: 1px solid skyblue;
+            width: 400px;
+            margin: 5rem auto 0;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container centered-box">
+        <h1 class="text-muted">Sign In</h1>
+        <form method="POST" action="/">
+            <div class="form-group">
+                <label for="emailId">Email Address</label>
+                <input type="email" id="emailId" name="usermail" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="userpass" class="form-control">
+            </div>
+            <button type="submit" onclick="myFunction();" class="btn btn-primary">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
